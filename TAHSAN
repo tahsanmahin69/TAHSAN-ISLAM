@@ -69,7 +69,7 @@ try:
 except ValueError:
     exit()
 def banner():
-    print("[=] ðŸ˜Œ Testing New mathod By Sami")
+    print("[=] ðŸ˜Œ Testing New mathod By TAHSAN")
 current = datetime.now()
 ta=current.year
 bu=current.month
@@ -420,7 +420,7 @@ def a(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[ SAMI ] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[ TAHSAN ] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.write(f" \r{R} [{B} S4MI{R}]  {P}[{k}{loop}{P}/{h}{len(id)}{P}]Ã¢â‚¬â€{P}[{H}{ok}{P}]Ã¢â‚¬â€{P}[{k}{cp}{x}]Ã¢â‚¬â€[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  ")
         sys.stdout.flush()
     except:
